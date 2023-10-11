@@ -1,0 +1,410 @@
+body{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+
+*{
+    margin: 0;
+    padding-right:0;
+    box-sizing: border-box;
+}
+
+.logoimagehead{
+    display: flex;
+    width: 150px;
+    height: 45px;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+
+.mobimage
+{
+  width: 60%;
+  height: 664.67px; 
+  padding-left: 247px;
+}
+.tab{
+  width: 664.65px;
+  height: 664.67px;
+  padding-top: 122px;
+
+  
+}
+
+ .textwazi{ 
+    font-style: bold;
+  font-size: 48px;
+  font-style: italic;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: white;
+  font-family: "IBM Plex Sans", sans-serif;
+  padding-left: 153;
+  
+}
+
+.righting{
+  width: 800px;
+  padding-left: 80px;
+}
+
+ul{
+  list-style: none;
+}
+
+nav ul{
+  float: right;
+  
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0  32px;
+  color: blue;
+  border: 1px;
+
+}
+
+.signup{
+  background-color: #eac808;
+  padding:0px 44px;
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  height: 62PX;
+}
+
+.body2{
+  background-color:#dbe4fc ;
+  width: 100%;
+  height: 770px;
+  
+}
+
+.row{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(3,1fr) ;
+  gap: 10px;
+  width: 950px;
+  margin: auto;
+  height: 50px;
+
+}
+
+.features{
+  padding: 20px;
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  color: gray;
+  font-weight: 400;
+  line-height: 1.71;
+  font-size: 14px;
+  display: block;
+}
+
+h3{
+  color: #3f475a;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  padding: 8px 0px;
+}
+
+.icon-in-body{
+   width: 90px;
+   height: 90px;
+}
+
+.smallblue{
+  background-color: #3067f0;
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.everyone{
+  width: 100%;
+  height: 300px;
+  background-color: whitesmoke;
+}
+
+.tab2{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+    top:1554px;
+    margin-left: 459.9px;
+
+}
+
+.dwlwazrixtext{
+  color: white;
+  font-size: 34px;
+  font-style: italic; 
+  font-weight: 800;
+  line-height: 1em;
+  text-align: center;
+  padding-top: 50px ;
+  
+
+
+  
+}
+ .con-dwon{
+  align-items: center;
+
+ }
+
+
+.lastwazi{
+  text-align: center;
+  font-style: italic;
+  color: #1e2433; 
+  font-size: 36;
+  line-height: 1px;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  display: block;
+  padding-top: 90px;
+  padding-right: 250px;
+}
+
+.text-we-are{
+  color:#1e2433;
+  text-align: left;
+  margin-left:420px;
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.smalltext{
+  font-style: normal;
+  font-size: x-small;
+  text-align: left;
+  padding-top: 25px;
+  margin-left: 420px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+
+}
+.blue-line{
+  width: 100%;
+  background-color: #3067f0;
+  height: 5px;
+}
+
+.butn{
+  height: 30px;
+  width: 170px;
+  box-shadow: none;
+}
+.header
+{
+  width: 100%;
+  height: 72px;
+  background-color: black;
+  display: flex;
+}
+
+.logo
+{
+  width: 60%;
+  height: 72px;
+  background-color: white;
+}
+.nav
+{
+  width: 40%;
+  height: 72px;
+  background-color: #eac808;
+  display: flex;
+}
+.exchange
+{
+  height: 72px;
+  width: 33%;
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: #f2f3f5;
+
+}
+.p2p
+{
+  height: 72px;
+  width: 20%;
+  background-color: white;
+  border: solid;
+  border-width: 1px;
+  border-color: #f2f3f5;
+}
+.login{
+  border: solid;
+  border-width:1px;
+  border-color: #f2f3f5;
+  height: 72px;
+  width: 24%;
+  background-color: white;
+  
+}
+.signup
+{
+  height: 72px;
+  width: 23%;
+  background-color:#EAC808;
+  
+}
+
+.styleup{
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-top: 28px;
+  font-weight: 55;
+}
+#signup{
+  font-family:"IBM Plex Sans", sans-serif;
+  margin-top: 28px;
+  color: black;
+  width: 60.15px;
+  height: 19px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.wzilogo{
+  height: 34.18px;
+  width: 160px;
+  margin-top: 20px;
+  padding-left: 22px;
+}
+
+
+.cont-righting{
+  width: 40%;
+  padding-top: 115px;
+  padding: 140px;
+  padding-left: 103px;
+}
+
+.bluebody
+{
+  height:800px;
+  width:100% ;
+  background-color:#3067f0;
+  display: flex;
+}
+
+
+.buysell{
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.signupbutton{
+  background-color: #EAC808;
+  border: none;
+  border-radius: 4px;
+  width: 317px;
+  height: 60px;
+  color: #000;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-size: 16px;
+}
+
+.up{
+  width: 155px;
+  height: 48.44px;
+}
+
+/* foooter */
+.lastimagelogo{
+  width: 177px;
+  height: 40px;
+
+}
+
+.lastlogo{
+  padding-left: 50px;
+  padding-top: 35px;
+}
+.lastdwnbut{
+ float: right;
+ display: inline;
+ margin-top: -40px;
+ padding-right: 100px;
+}
+.footerlogoarea{
+  width: 100%;
+  height:600px;
+  background-color:#FFFFFF;
+}
+.realfooter{
+  display: flex;
+  justify-content:space-evenly   ;
+  text-align: left;
+  margin-top: 100px;
+}
+
+
+ul{
+  list-style-type: none;
+  line-height: 1.6em;
+  font-size: 14px;
+  font-family: "IBM Plex Sans", sans-serif;;
+  color: #3f475a;
+}
+
+.hr{
+  width: 1385px;
+   margin-left: 61px;
+   font-size: 18.62px;
+   color: #000000;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.copyright{
+  padding-left: 100px;
+  padding-top: 50px;
+  color: #3f475a;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+
+.artline{
+  padding-top: 110px;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
